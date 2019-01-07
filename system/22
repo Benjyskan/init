@@ -1,1 +1,2 @@
-sudo adduser new_user
+#!/bin/sh
+adduser new_user

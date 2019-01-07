@@ -1,2 +1,2 @@
-kill
-# kill "PID of the ssh service"
+#!/bin/sh
+systemctl sshd stop

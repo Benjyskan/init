@@ -1,1 +1,2 @@
-man kill
+#!/bin/sh
+kill -9 %%

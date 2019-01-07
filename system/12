@@ -1,1 +1,3 @@
-ls -lahd /var/*
+#!/bin/sh
+su -
+du -lhd1 /var

@@ -1,2 +1,4 @@
-ssh
-# ssh username@ip_address
+#!/bin/sh
+read -p "Enter username: " username
+ADRESS=$(ip address | grep "inet 10" | cut -d ' ' -f6 | cut -d '/' -f1)
+ssh $username@$ADRESS

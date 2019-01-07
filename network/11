@@ -1,0 +1,3 @@
+traceroute -m5 slash16.org | grep nat | cut -d '(' -f2 | cut -d ')' -f1
+10.60.1.11
+when the IP change from private range to a public one (10.~ is private)

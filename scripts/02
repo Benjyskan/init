@@ -1,0 +1,3 @@
+#!/bin/sh
+read -p "which user would you like to delete ? " username
+pkill -u $username && userdel -f $username

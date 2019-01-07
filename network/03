@@ -1,0 +1,2 @@
+#!/bin/sh
+networksetup -getinfo Wi-Fi | grep Wi-Fi | cut -d ' ' -f 3

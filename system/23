@@ -1,0 +1,6 @@
+via ssh session:
+ssh username@ip_adress
+then enter password
+
+via graphic session:
+enter username and password when the VM boot
